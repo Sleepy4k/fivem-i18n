@@ -1,0 +1,2 @@
+--// Copyright 2022 Naka Studios \\--
+local a="\78\75\67\111\114\101\58\108\97\110\103\117\97\103\101\58\115\101\116"local b=GetConvar("\110\107\99\111\114\101\95\108\111\99\97\108\101","\101\110")local c=RegisterNetEvent;Translator.setLang(b)if Config.EnableCustomLang then c(a,function(d)Translator.setLang(d)end)end
