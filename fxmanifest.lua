@@ -35,11 +35,11 @@ server_scripts {
 }
 
 ui_page {
-	'gui/index.html'
+	'gui/main.html'
 }
 
 files {
-    'gui/index.html',
-    'gui/css/*.*',
-    'gui/js/*.*',
+    'gui/main.html',
+    'gui/css/*.css',
+    'gui/js/*.js',
 }
